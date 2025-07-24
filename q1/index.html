@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="he">
+<html lang="he" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,22 +10,24 @@
 <body>
 
     <div class="container my-4">
-        <h1 class="text-center mb-4">קטלוג קורסים אונליין</h1>
-        <p class="text-center mb-5">בחרו מתוך מגוון קורסים בכל הרמות</p>
+        <h1 class="text-center mb-4 text-muted">קטלוג קורסים</h1>
+        <h3 class="text-center mb-5 text-muted">מגוון קורסים - במגוון רמות</h3>
 
         <div class="row g-4">
 
         <div class="col-12 col-md-6 col-lg-3">
             <div class="card h-100">
-              <img src="images/course1.jpg" class="card-img-top" alt="ניתוח נתונים">
-              <div class="card-body">
-                <h5 class="card-title">קורס ניתוח נתונים</h5>
+            <div class="ratio ratio-16x9">
+              <img src="images/course1.jpg" class="card-img-top" alt="Data Analyst">
+            </div>
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Data Analyst</h5>
                 <h6 class="card-subtitle mb-2 text-muted">מרצה: יוסי ברוכמן</h6>
                 <div class="card-text"> 
                     <p>בין הנושאים הנלמדים בקורס:</p>
                     <p> Data Analysis with SQL | Database Structures | Data Analysis with Python | Data Analysis using Excel | Power BI | Introduction to Big Data Analysis</p>
                 </div>
-                <footer class="text-center small text-muted mt-auto">
+                <footer class="card-footer text-center small text-muted mt-auto">
                     בסיסי
                 </footer>
               </div>
@@ -35,16 +37,80 @@
 
     <div class="col-12 col-md-6 col-lg-3">
         <div class="card h-100">
+         <div class="ratio ratio-16x9">
             <img src="images/course2.jpg" class="card-img-top" alt="Full Stack Developer">
-            <div class="card-body">
-                <h5 class="card-title">Full Stack Developer קורס</h5>
+         </div>
+            <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Full Stack Developer</h5>
                 <h6 class="card-subtitle mb-2 text-muted">מרצה: טלי כהן</h6>
                 <div class="card-text">
                    <p>המסלול מתמקד בשפות הפיתוח הפופולאריות לממשק משתמש</p>
                    <p>בשפות מובילות לפיתוח צד שרת</p>
                    <p>בנוסף, נתרגל עבודה עם מסד נתונים MySQL ומסד נתונים MongoDB.</p>
                 </div>
-                <footer class="text-center small text-muted mt-auto">
+                <footer class="card-footer text-center small text-muted mt-auto">
+                    מומחה
+                </footer>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="col-12 col-md-6 col-lg-3">
+        <div class="card h-100">
+        <div class="ratio ratio-16x9">
+            <img src="images/course3.jpg" class="card-img-top" alt="E-commerce">
+        </div>
+            <div class="card-body d-flex flex-column">
+                <h5 class="card-title">E-commerce</h5>
+                <h6 class="card-subtitle mb-2 text-muted">מרצה: אלי שטיינפלד</h6>
+                <div class="card-text">
+                   <p>הקורס מעניק ידע מעשי בשיווק, מכירות, ניהול מלאי, חוויית משתמש ואופטימיזציה, תוך עבודה עם הפלטפורמות המובילות בשוק.</p>
+                   <p>במהלך הקורס תתנסו בהקמת וניהול חנות אונליין מצליחה, תוך שימוש בפלטפורמות מובילות כמו:</p>
+                   <p>Shopify, WooCommerce ו-Amazon.</p>
+                </div>
+                <footer class="card-footer text-center small text-muted mt-auto">
+                    בסיסי
+                </footer>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="col-12 col-md-6 col-lg-3">
+        <div class="card h-100">
+        <div class="ratio ratio-16x9">
+            <img src="images/course4.jpg" class="card-img-top" alt="Project Manager">
+        </div>
+            <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Project Manager</h5>
+                <h6 class="card-subtitle mb-2 text-muted">מרצה: אופק סלע</h6>
+                <div class="card-text">
+                   <p>בקורס תלמדו את עקרונות ניהול הפרויקטים – מתכנון ראשוני ועד להשלמה מוצלחת.</p>
+                   <p>תעמיקו בניהול זמנים, תקציבים ומשאבים, תתמקדו בזיהוי וניהול סיכונים, ותפתחו מיומנויות לניהול צוותים ולשיפור תהליכי עבודה.</p>
+                </div>
+                <footer class="card-footer text-center small text-muted mt-auto">
+                    מומחה
+                </footer>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="col-12 col-md-6 col-lg-3">
+        <div class="card h-100">
+        <div class="ratio ratio-16x9">
+            <img src="images/course5.jpg" class="card-img-top" alt="Cyber Security Analyst">
+        </div>
+            <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Cyber Security Analyst</h5>
+                <h6 class="card-subtitle mb-2 text-muted">מרצה: ערן טולידן</h6>
+                <div class="card-text">
+                   <p>בקורס תלמדו את יסודות אבטחת המידע והמתודולוגיות הנדרשות להגנה על מערכות מידע, רשתות תקשורת ונכסים דיגיטליים מפני איומי סייבר.</p>
+                   <p>הקורס מכסה הן את ההיבט ההגנתי (Blue Team) והן את ההיבט ההתקפי (Red Team), כולל טכנולוגיות כמו:</p>
+                   <p>Penetration Testing, Malware Analysis, Network Security, ומערכות הגנה מתקדמות. </p>
+                </div>
+                <footer class="card-footer text-center small text-muted mt-auto">
                     מתקדם
                 </footer>
             </div>
@@ -54,16 +120,57 @@
 
     <div class="col-12 col-md-6 col-lg-3">
         <div class="card h-100">
-            <img src="images/course2.jpg" class="card-img-top" alt="Full Stack Developer">
-            <div class="card-body">
-                <h5 class="card-title">קורס ניהול פרוייקטים</h5>
+        <div class="ratio ratio-16x9">
+            <img src="images/course6.jpg" class="card-img-top" alt="Machine Learning">
+        </div>
+            <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Machine Learning</h5>
                 <h6 class="card-subtitle mb-2 text-muted">מרצה: אלי כהן</h6>
                 <div class="card-text">
-                   <p>המסלול מתמקד בשפות הפיתוח הפופולאריות לממשק משתמש</p>
-                   <p>בשפות מובילות לפיתוח צד שרת</p>
-                   <p>בנוסף, נתרגל עבודה עם מסד נתונים MySQL ומסד נתונים MongoDB.</p>
+                   <p>בקורס זה תצברו ניסיון בתחומים של:</p>
+                   <p>למידת מכונה,כולל חיזוי, סיווג, קיבוץ באשכולות ואחזור מידע.</p>
+                   <p>תלמדו לנתח מערכי נתונים גדולים ומורכבים, ליצור מערכות שמסתגלות ומשתפרות לאורך זמן, ולבנות יישומים חכמים שיכולים לבצע חיזויים מנתונים.</p>
                 </div>
-                <footer class="text-center small text-muted mt-auto">
+                <footer class="card-footer text-center small text-muted mt-auto">
+                    מומחה
+                </footer>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="col-12 col-md-6 col-lg-3">
+        <div class="card h-100">
+        <div class="ratio ratio-16x9">
+            <img src="images/course7.jpg" class="card-img-top" alt="Human Resources Specialist">
+        </div>
+            <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Human Resources Specialist</h5>
+                <h6 class="card-subtitle mb-2 text-muted">מרצה: אביאל יפה</h6>
+                <div class="card-text">
+                   <p>הקורס עוסק בהיבטי ניהול שונים תוך מתן דגש על שיטות מעשיות לגיוס כוח אדם ומיונו, הדרכת עובדים והערכתם, הנעת עובדים, שיטות ניהול ומנהיגות, שיפור התקשורת הבינאישית בארגון וכן בסוגיות משפטיות בדיני ויחסי עבודה.</p>
+                </div>
+                <footer class="card-footer text-center small text-muted mt-auto">
+                    בסיסי
+                </footer>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="col-12 col-md-6 col-lg-3">
+        <div class="card h-100">
+        <div class="ratio ratio-16x9">
+            <img src="images/course8.jpg" class="card-img-top" alt="UI / UX Designer">
+        </div>
+            <div class="card-body d-flex flex-column">
+                <h5 class="card-title">UI / UX Designer</h5>
+                <h6 class="card-subtitle mb-2 text-muted">מרצה: יובל הראל</h6>
+                <div class="card-text">
+                   <p>בקורס תלמדו את כל מה שמעצבים גרפיים בעידן הדיגיטלי צריכים לדעת -</p>
+                   <p>מהבסיס התיאורטי והטכני של יסודות העיצוב, דרך התמחות במוצרים דיגיטליים ועיצוב חוויית משתמש (UX/UI), ועד שליטה מלאה בכלי AI.</p>
+                </div>
+                <footer class="card-footer text-center small text-muted mt-auto">
                     מתקדם
                 </footer>
             </div>
