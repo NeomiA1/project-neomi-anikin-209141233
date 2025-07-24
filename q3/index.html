@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>הצעת מופע לקרקס הרגשות</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section class="form-section">
+    <h1>הצעת מופע לקרקס הרגשות</h1>
+
+    <form id="show-form">
+        <label>שם המופע:
+            <input type="text" id="show-name" placeholder="שם המופע">
+          </label>
+          
+          <label>הרגש המרכזי:
+            <select id="emotion">
+              <option value="">בחר רגש</option>
+              <option>שמחה</option>
+              <option>פחד</option>
+              <option>בלבול</option>
+              <option>געגוע</option>
+            </select>
+          </label>
+          
+          <label>מצריך השתתפות?
+            <select id="participation">
+              <option value="">בחר</option>
+              <option value="yes">כן</option>
+              <option value="no">לא</option>
+            </select>
+          </label>
+          
+          <label>ציוד נדרש:
+            <input type="text" id="equipment" placeholder="ציוד נדרש">
+          </label>
+          
+          <label>דרגת אינטנסיביות (1-5):
+            <input type="number" id="intensity" min="1" max="5" placeholder="בחר מספר בין 1 ל-5">
+          </label>
+          
+          <label>מגבלת גיל:
+            <input type="number" id="age-limit" min="0" placeholder="מגבלת גיל">
+          </label>
+          
+          <label>אימייל היוצר:
+            <input type="text" id="creator-email" placeholder="yourname@example.com">
+          </label>
+          
+
+      <button type="submit">שלח הצעה</button>
+    </form>
+
+    <div id="messages"></div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
