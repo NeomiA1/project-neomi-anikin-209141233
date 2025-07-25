@@ -4,11 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>הצעת מופע לקרקס הרגשות</title>
+  <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <section class="form-section">
-    <h1>הצעת מופע לקרקס הרגשות</h1>
+    <div class="title">
+    <div>הצעת מופע לקרקס הרגשות</div>
+    </div>
 
     <form id="show-form">
         <label>שם המופע:
@@ -50,10 +53,14 @@
           </label>
           
 
-      <button type="submit">שלח הצעה</button>
+      <button type="submit" class="btn">שלח הצעה</button>
     </form>
 
     <div id="messages"></div>
+
+  <div class="view-link">
+  <a href="view.html" class="view-btn">צפה בכל ההצעות</a>
+  </div>
   </section>
 
   <script src="script.js"></script>
